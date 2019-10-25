@@ -8,7 +8,7 @@ The original [kobackupdec](https://github.com/RealityNet/kobackupdec) is a Pytho
 Here it is my "porting" in .NET, credit goes to [dfirfpi](https://github.com/dfirfpi) for its original idea and implementation.
 
 For any further information, please read:
-* the blog post at https://blog.digital-forensics.it/2019/07/huawei-backup-decryptor.html
+* the blog post at [ZENA FORENSICS](https://blog.digital-forensics.it/2019/07/huawei-backup-decryptor.html)
 * the [kobackupdec](https://github.com/RealityNet/kobackupdec) script for Python3
 
 ## Usage
