@@ -2,7 +2,7 @@
 HUAWEI backup decryptor in C#
 
 <a href="https://consumer.huawei.com/minisite/HiSuite/HiSuite_en/index.html">
-<img src="https://consumer-img.huawei.com/content/dam/huawei-cbg-site/en/support/hisuite/img/s1-pic.png" width="330" height="300" align="right"/></a>
+<img src="https://consumer-img.huawei.com/content/dam/huawei-cbg-site/en/support/hisuite/img/s1-pic.png" width="230" height="200" align="right"/></a>
 
 The original [kobackupdec](https://github.com/RealityNet/kobackupdec) is a Python3 script aimed to decrypt [HUAWEI HiSuite](https://consumer.huawei.com/en/support/hisuite/) or [KoBackup](https://play.google.com/store/apps/details?id=com.huawei.KoBackup) (the Android app) backups. 
 Here it is my "porting" in .NET, credit goes to [dfirfpi](https://github.com/dfirfpi) for its original idea and implementation.
