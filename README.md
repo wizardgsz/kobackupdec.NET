@@ -9,6 +9,9 @@ For any further information, please read:
 * the [kobackupdec](https://github.com/RealityNet/kobackupdec) script for Python3
 
 ## Usage
+
+The [original script](https://github.com/RealityNet/kobackupdec) *assumes* that backups are encrypted with a user-provided password. Actually it does not support the HiSuite _self_ generated password, when the user does not provide its own.
+
 ```
 usage: kobackupdec.exe password backup_path dest_path
 
