@@ -2,7 +2,7 @@
 HUAWEI backup decryptor in C#
 
 The original [kobackupdec](https://github.com/RealityNet/kobackupdec) is a Python3 script aimed to decrypt [HUAWEI HiSuite](https://consumer.huawei.com/en/support/hisuite/) or [KoBackup](https://play.google.com/store/apps/details?id=com.huawei.KoBackup) (the Android app) backups. 
-Here it is my "porting" in .NET
+Here it is my "porting" in .NET, credit goes to [dfirfpi](https://github.com/dfirfpi) for its original idea and implementation.
 
 For any further information, please read:
 * the blog post at https://blog.digital-forensics.it/2019/07/huawei-backup-decryptor.html
@@ -10,7 +10,7 @@ For any further information, please read:
 
 ## Usage
 
-The [original script](https://github.com/RealityNet/kobackupdec) *assumes* that backups are encrypted with a user-provided password. Actually it does not support the HiSuite _self_ generated password, when the user does not provide its own.
+The [original script](https://github.com/RealityNet/kobackupdec) *assumes* that backups are encrypted with a user-provided password. Actually it does not support the HiSuite _self_ generated password when the user does not provide its own.
 
 ```
 usage: kobackupdec.exe password backup_path dest_path
@@ -29,7 +29,7 @@ positional arguments:
 
 As the [original script](https://github.com/RealityNet/kobackupdec), the **output** folder structure will be similar to the following one: *data/data* applications will be exploded in their proper paths, and the APKs will be *restored* too (not icons, actually). Note that the **db** folder will contain the *special* databases as created by your backup.
 
-Databases use [SQLite format 3](https://www.sqlite.org/version3.html), see also https://sqliteonline.com/ for an online browser.
+Database uses [SQLite format 3](https://www.sqlite.org/version3.html), see also https://sqliteonline.com/ for an online browser but remember **it contains your sensible and personal data**.
 
 ```
 HiSuiteBackup
