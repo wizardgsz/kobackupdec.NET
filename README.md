@@ -11,6 +11,8 @@ For any further information, please read:
 * the blog post at [ZENA FORENSICS](https://blog.digital-forensics.it/2019/07/huawei-backup-decryptor.html)
 * the [kobackupdec](https://github.com/RealityNet/kobackupdec) script for Python3
 
+Thanks again to [dfirfpi](https://github.com/dfirfpi) for sharing his research!
+
 ## Usage
 
 The [original script](https://github.com/RealityNet/kobackupdec) *assumes* that backups are encrypted with a user-provided password. Actually it does not support the HiSuite _self_ generated password when the user does not provide its own.
