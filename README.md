@@ -1,6 +1,8 @@
 # kobackupdec.NET
 HUAWEI backup decryptor in C#
 
+![](https://img.shields.io/github/license/wizardgsz/kobackupdec.NET)
+
 <a href="https://consumer.huawei.com/minisite/HiSuite/HiSuite_en/index.html">
 <img src="images/s1-pic.png" width="230" height="200" align="right"/></a>
 
