@@ -78,3 +78,9 @@ HiSuiteBackup
     `-- s8-wallpapers-9011.PNG
 ```
 
+## Intended Future Features
+
+- [ ] overwrite existing files option
+- [ ] verbosity level while logging
+- [ ] logging to file instead of `Console`
+
