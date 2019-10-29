@@ -82,6 +82,7 @@ HiSuiteBackup
 
 ## Intended Future Features
 
+- [ ] implement v4 algorithm
 - [ ] overwrite existing files option
 - [ ] verbosity level while logging
 - [ ] logging to file instead of `Console`
